@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso al Sistema</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Inscripciones</h1>
+            <h2>Facultad de Ingeniería</h2>
+        </div>
+    </header>
+    <main>
+        <div class="login-box">
+            <h3>Acceso al Sistema</h3>
+            <p>Use su nombre de usuario, clave y el contenido de la imagen, para ingresar al Sistema Académico Facultativo.</p>
+            <div class="login-form">
+                <form action="inicio-continuo.html">
+                    <label for="username">Usuario</label>
+                    <input type="text" id="username" name="username" required>
+                    
+                    <label for="password">Clave</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <img src="captcha.png" alt="Captcha">
+                    
+                    <label for="captcha">Ingrese el contenido de la imagen</label>
+                    <input type="text" id="captcha" name="captcha" required>
+                    
+                    <button type="submit" onclick="inicio-continuo.css" >Entrar</button>
+                </form>
+            </div>
+            <div class="links">
+                <p>::: VER NOTAS DEL SEMESTRE REGULAR 1/2024 :::</p>
+                <p>::: VER NOTAS VERANO 2024 :::</p>
+            </div>
+            <div id="notice" style="color: blue;">
+                <p>AVISO IMPORTANTE: El acceso al sistema para ESTUDIANTES ANTIGUOS como usuario fue rectificado al REGISTRO UNIVERSITARIO (vale decir aquellos que ingresaban como usuario el C.I.) con el que podrán acceder al sistema, FAVOR TOMAR NOTA !!!</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
